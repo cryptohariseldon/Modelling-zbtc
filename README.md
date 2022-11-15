@@ -9,6 +9,7 @@ The method consist in obtaining a mean and standard deviation from a given sampl
 ## usage
 
 Clone repo and install dependencies:
+
 `
 git clone https://github.com/cryptohariseldon/Modelling-zbtc.git
 `
