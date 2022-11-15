@@ -24,7 +24,7 @@ for o in range(0,iter2):
     drift = u - (0.5*var)
 
     stdev = log_returns.std()
-    days = 1095 # Set time period here
+    days = 730 # Set time period here
     iterations = 1
     Z = norm.ppf(np.random.rand(days, iterations))
     daily_returns = np.exp(drift + stdev * Z)
