@@ -10,8 +10,12 @@ The method consist in obtaining a mean and standard deviation from a given sampl
 
 Clone repo and install dependencies:
 `
-git Clone
-cd
+git clone https://github.com/cryptohariseldon/Modelling-zbtc.git
+`
+`
+cd Modelling-zbtc
+`
+`
 pip3 install -r requirements.txt
 `
 
@@ -22,6 +26,7 @@ python3 montecarlo_single.py
 `
 
 Run a 1000 montecarlo simulations with a two year time frame, and output frequency and likelhood of the SMA ending up in different price bands :
+
 `
 python3 montecarlo_multi.py
 `
