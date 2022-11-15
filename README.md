@@ -6,7 +6,7 @@ On this README file, I will present some results for Bitcoin close price predict
 ## Method
 The method consist in obtaining a mean and standard deviation from a given sample data (time series), on this particular case the close price data of Bitcoin from a certain time range.
 
-## usage
+## Usage
 
 Clone repo and install dependencies:
 
